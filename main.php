@@ -16,6 +16,13 @@ $RequestData = array(
 
 $ch = curl_init();
 
+/*
+
+  HTTPS API Endpoint: https://secure.smslink.ro/sms/gateway/communicate/json.php
+  HTTP API Endpoint: http://www.smslink.ro/sms/gateway/communicate/json.php
+
+*/
+
 $RequestURL = "https://secure.smslink.ro/sms/gateway/communicate/json.php";
 
 curl_setopt($ch, CURLOPT_URL, $RequestURL);
