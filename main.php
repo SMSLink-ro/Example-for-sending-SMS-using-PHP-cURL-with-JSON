@@ -18,8 +18,8 @@ $ch = curl_init();
 
 /*
 
-  HTTPS API Endpoint: https://secure.smslink.ro/sms/gateway/communicate/json.php
-  HTTP API Endpoint: http://www.smslink.ro/sms/gateway/communicate/json.php
+  HTTPS JSON API Endpoint:  https://secure.smslink.ro/sms/gateway/communicate/json.php
+  HTTP JSON API Endpoint:   http://www.smslink.ro/sms/gateway/communicate/json.php
 
 */
 
